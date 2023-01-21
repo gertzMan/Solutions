@@ -21,4 +21,5 @@ They all share the key observation that only two things need to be maintained an
 
 I also built a simple HTML and JS app to simulate the question
 conditions and deployed it. Check it out: <https://gertzman.github.io/Recursive-Numeric-Sequencer/>
+
 (link to its repository: <https://github.com/gertzMan/Recursive-Numeric-Sequencer>)
