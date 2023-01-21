@@ -20,5 +20,5 @@ They all share the key observation that only two things need to be maintained an
 
 ## ✨ Bonus implementation to the bonus Question ✨
 
-    I also built a simple HTML and JS app to simulate the question
-    conditions and deployed it.Check it out: here: https://gertzman.github.io/Recursive-Numeric-Sequencer/
+I also built a simple HTML and JS app to simulate the question
+conditions and deployed it.Check it out: https://gertzman.github.io/Recursive-Numeric-Sequencer/
