@@ -1,4 +1,4 @@
-# Details
+# 🔖 Details
 
 ## Q1 - Q3
 
@@ -6,9 +6,8 @@ Solutions to questions 1 - 3 are included each in their own file.
 
 ## Q4: Recursive Numeric “Sequencer”
 
-The input form is open to interpretation and I was not sure which you
-were eluding so I implemented several versions to cover a broad
-spectrum.
+The input form is open to interpretation and I was not sure to which you
+were eluding, so I implemented several versions to cover a broad spectrum.
 
 They all share the key observation that only two things need to be maintained and monitored: the maximum number thus far, and its frequency. If a new maximum is found I just discard the data collected prior to it, since it bares no relevance as we have a new number to follow, and at that instance, this is the first time we have encountered it.
 
