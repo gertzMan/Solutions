@@ -14,8 +14,8 @@ They all share the key observation that only two things need to be maintained an
 ### Versions
 
 - A node.js implementation that recursively prompts the user for input.
-- An implementation that assumes the input is given as a string i.e "5 4 3 5 0"
-- An implementation that assumes the input is given as an array
+- An implementation that assumes the input is given as a string i.e "5 4 3 5 0".
+- An implementation that assumes the input is given as an array.
 
 ## ✨ Bonus implementation to the bonus Question ✨
 
