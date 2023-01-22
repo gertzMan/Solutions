@@ -17,7 +17,7 @@ They all share the key observation that only two things need to be maintained an
 - An implementation that assumes the input is given as a string i.e "5 4 3 5 0".
 - An implementation that assumes the input is given as an array.
 
-## ✨ Bonus implementation to the bonus Question ✨
+## ✨ Bonus Implementation For The Bonus Question ✨
 
 I also built a simple HTML and JS app to simulate the question
 conditions and deployed it. Check it out: <https://gertzman.github.io/Recursive-Numeric-Sequencer/>
