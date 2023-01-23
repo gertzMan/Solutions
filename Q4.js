@@ -1,5 +1,5 @@
 /**
- * IMPORTANT: Please refer to the README file at: https://github.com/gertzMan/Solutions
+ * IMPORTANT: Please refer to the README file at: https://github.com/gertzMan/solutions#-details
  */
 
 /**
