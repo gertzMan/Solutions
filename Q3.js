@@ -2,10 +2,12 @@
  * @param {number} num
  * @returns {number}
  */
-function sumOfDigits(num) {
-  if (num < 10) {
-    return num;
+function sumOfDigits(num, sum = 0) {
+  if (num === 0) {
+    return sum;
   }
-
-  return (num % 10) + sumOfDigits(Math.floor(num / 10));
+  return addDigitsTail(
+    Math.floor(Math.abs(num) / 10),
+    sum + (Math.abs(num) % 10)
+  );
 }
