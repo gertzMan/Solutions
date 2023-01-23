@@ -1,17 +1,17 @@
 /**
  * Q1: Price Check
  * @param {string[]} products
- * @param {number[]} productsPrices
+ * @param {number[]} productPrices
  * @param {string[]} productsSold
  * @param {number[]} soldPrice
  * @returns {number}
  */
 
-function checkPrice(products, productsPrices, productsSold, soldPrice) {
+function priceCheck(products, productPrices, productsSold, soldPrice) {
   const productToPriceMap = new Map();
   let errorCount = 0;
   for (let i = 0; i < products.length; i++) {
-    productToPriceMap.set(products[i], productsPrices[i]);
+    productToPriceMap.set(products[i], productPrices[i]);
   }
   for (let i = 0; i < productsSold.length; i++) {
     let soldAt = soldPrice[i];

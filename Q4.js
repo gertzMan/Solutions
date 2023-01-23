@@ -1,4 +1,8 @@
 /**
+ * IMPORTANT: Please refer to the README file at: https://github.com/gertzMan/Solutions
+ */
+
+/**
  * Q4: Recursive Numeric “Sequencer”
  * Version: This implementation recursively prompts the user for input and
  * processes one input at a time.
@@ -11,7 +15,7 @@ const { stdin, stdout } = require("process");
 
 const rl = readline.createInterface({ input: stdin, output: stdout });
 
-function maxInSequence(currMax = 0, count) {
+function maxInSequence(currMax = -Infinity, count) {
   rl.question("Enter a number (0 to exit): ", (input) => {
     input = Number.parseInt(input);
     if (input === 0) {
@@ -39,7 +43,7 @@ maxInSequence();
  * @param {string} numStr
  * @returns {number[]}
  */
-function maxInSequence(numStr, currMax = 0, count) {
+function maxInSequence(numStr, currMax = -Infinity, count) {
   const currNum = Number.parseInt(numStr.split(" ")[0]);
   const currNumLength = numStr.split(" ")[0].length;
   if (currNum === 0) return [currMax, count];
@@ -63,7 +67,7 @@ function maxInSequence(numStr, currMax = 0, count) {
  * @returns {number[]}
  */
 
-function maxInSequence(numArr, index = 0, currMax = 0, count) {
+function maxInSequence(numArr, index = 0, currMax = -Infinity, count) {
   if (numArr[index] === 0) {
     return [currMax, count];
   } else if (numArr[index] > currMax) {
