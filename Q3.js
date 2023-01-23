@@ -6,7 +6,7 @@ function sumOfDigits(num, sum = 0) {
   if (num === 0) {
     return sum;
   }
-  return addDigitsTail(
+  return sumOfDigits(
     Math.floor(Math.abs(num) / 10),
     sum + (Math.abs(num) % 10)
   );
