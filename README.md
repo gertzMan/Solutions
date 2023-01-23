@@ -1,8 +1,8 @@
 # 🔖 Details
 
-**Note**
-I also built a simple HTML and JS app to simulate the question
-conditions and deployed it. Check it out: <https://gertzman.github.io/Recursive-Numeric-Sequencer/>
+> **Note**
+> I also built a simple HTML and JS app to simulate the question
+> conditions and deployed it. Check it out: <https://gertzman.github.io/Recursive-Numeric-Sequencer/>
 
 ## Q1 - Q3
 
